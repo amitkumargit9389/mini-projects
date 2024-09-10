@@ -3,14 +3,15 @@
     padding:0;
     box-sizing: border-box;
     position:relative;
-    background-color: rgba(0, 0, 0, 0.856);
-    width:100vw;
-    height:100vh;
+    /* background-color: rgba(237, 232, 232, 0.856); */
+    width:500px;
+    height:600px;
     overflow-x:none;
+    margin:0 auto;
 }
 .circle1{
     position:absolute;
-    left:33%;
+    left:0%;
     top:5%;
     height:7rem;
     width:7rem;
@@ -29,20 +30,23 @@
     100%{transform:translateX(0px)}
 }
 .mainbox{
+    /* border-radius:19% 81% 14% 86% / 77% 28% 72% 23%   ; */
     margin:0 auto;
+    border-radius: 20px;
     position:relative;
     top:130px;
     display:flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height:60%;
-    width:23%;
+    height:75%;
+    width:70%;
     border: 1px solid black;
     z-index: 2;
-    color:aliceblue;
+    color:rgb(6, 6, 6);
     filter:blur(100%);
-    border-radius:10px;
+    /* filter:drop-shadow(0 0 10px); */
+    
     border:1px solid rgba(105, 96, 85, 0.151);
     background-color: rgba(105, 96, 85, 0.151);
     backdrop-filter: blur(5px);
@@ -74,13 +78,14 @@ button{
     border:1px solid rgba(105, 96, 85, 0.151);
     background-color: rgba(105, 96, 85, 0.151);
     backdrop-filter: blur(5px);
-    color: aliceblue;
+    color: rgb(11, 11, 11);
     border-color: rgba(240, 255, 255, 0.589);
 }
 .circle2{
     position:absolute;
-    left:57%;
-    bottom:5%;
+    left:80%;
+    top:80%;
+    bottom:-%;
     height:9rem;
     width:9rem;
     background-color: rgba(219, 139, 34, 0.808);
